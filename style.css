@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+#nav{
+  height: 80px;
+  width: 100%;
+  /* background-color:red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+h4{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+#bag{
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* ---------------- Center Div------------------------------- */
+#center{
+  height: 40%;
+  width: 100%;
+  /* background-color: red; */
+  /* padding: 10px; */
+}
+#center h1{
+  padding-left: 50px;
+  font-weight: 500;
+  line-height: 45px;
+}
+#center-in{
+  height: 200px;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#center-in p{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+#right{
+  width: 20%;
+  height: 200px;
+}
+.elem{
+  /* padding: 10px; */
+  /* background-color: yellow; */
+  padding: 5px;
+  border-top: black solid;
+  
+}
+.elem a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: end;
+  justify-content: flex-end;
+}
+.elem i{
+  font-size: 20px;
+  align-items: flex-end;
+  opacity: 0;
+}
+.elem:hover i{
+opacity: 1;
+
+}
+.elem:hover{
+  background-color: rgb(200, 243, 229);
+}
+.elem:hover a{
+  text-decoration: underline;
+}
+
+/* ------------------- bottom-------------- */
+#bottom{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  background-image: url(https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 40%;
+
+}
